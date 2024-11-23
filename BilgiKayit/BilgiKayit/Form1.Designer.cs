@@ -41,14 +41,14 @@
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
-            this.maskedTextBox2 = new System.Windows.Forms.MaskedTextBox();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.button1 = new System.Windows.Forms.Button();
-            this.listBox1 = new System.Windows.Forms.ListBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.tb_ad = new System.Windows.Forms.TextBox();
+            this.tb_soyad = new System.Windows.Forms.TextBox();
+            this.mtb_tcNo = new System.Windows.Forms.MaskedTextBox();
+            this.mtb_telefonNo = new System.Windows.Forms.MaskedTextBox();
+            this.dtp_dogumTarihi = new System.Windows.Forms.DateTimePicker();
+            this.btn_ekle = new System.Windows.Forms.Button();
+            this.lb_kayit = new System.Windows.Forms.ListBox();
+            this.cb_sehir = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
@@ -177,73 +177,73 @@
             this.pictureBox6.TabIndex = 13;
             this.pictureBox6.TabStop = false;
             // 
-            // textBox1
+            // tb_ad
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.textBox1.Location = new System.Drawing.Point(546, 28);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 30);
-            this.textBox1.TabIndex = 14;
+            this.tb_ad.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.tb_ad.Location = new System.Drawing.Point(546, 28);
+            this.tb_ad.Name = "tb_ad";
+            this.tb_ad.Size = new System.Drawing.Size(100, 30);
+            this.tb_ad.TabIndex = 14;
             // 
-            // textBox2
+            // tb_soyad
             // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.textBox2.Location = new System.Drawing.Point(585, 74);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 30);
-            this.textBox2.TabIndex = 15;
+            this.tb_soyad.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.tb_soyad.Location = new System.Drawing.Point(585, 74);
+            this.tb_soyad.Name = "tb_soyad";
+            this.tb_soyad.Size = new System.Drawing.Size(100, 30);
+            this.tb_soyad.TabIndex = 15;
             // 
-            // maskedTextBox1
+            // mtb_tcNo
             // 
-            this.maskedTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.maskedTextBox1.Location = new System.Drawing.Point(731, 116);
-            this.maskedTextBox1.Mask = "00000000000";
-            this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.Size = new System.Drawing.Size(149, 30);
-            this.maskedTextBox1.TabIndex = 16;
+            this.mtb_tcNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.mtb_tcNo.Location = new System.Drawing.Point(731, 116);
+            this.mtb_tcNo.Mask = "00000000000";
+            this.mtb_tcNo.Name = "mtb_tcNo";
+            this.mtb_tcNo.Size = new System.Drawing.Size(149, 30);
+            this.mtb_tcNo.TabIndex = 16;
             // 
-            // maskedTextBox2
+            // mtb_telefonNo
             // 
-            this.maskedTextBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.maskedTextBox2.Location = new System.Drawing.Point(709, 164);
-            this.maskedTextBox2.Mask = "(999) 000-0000";
-            this.maskedTextBox2.Name = "maskedTextBox2";
-            this.maskedTextBox2.Size = new System.Drawing.Size(160, 30);
-            this.maskedTextBox2.TabIndex = 17;
+            this.mtb_telefonNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.mtb_telefonNo.Location = new System.Drawing.Point(709, 164);
+            this.mtb_telefonNo.Mask = "(999) 000-0000";
+            this.mtb_telefonNo.Name = "mtb_telefonNo";
+            this.mtb_telefonNo.Size = new System.Drawing.Size(160, 30);
+            this.mtb_telefonNo.TabIndex = 17;
             // 
-            // dateTimePicker1
+            // dtp_dogumTarihi
             // 
-            this.dateTimePicker1.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.dateTimePicker1.Location = new System.Drawing.Point(663, 286);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(217, 22);
-            this.dateTimePicker1.TabIndex = 19;
+            this.dtp_dogumTarihi.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.dtp_dogumTarihi.Location = new System.Drawing.Point(663, 286);
+            this.dtp_dogumTarihi.Name = "dtp_dogumTarihi";
+            this.dtp_dogumTarihi.Size = new System.Drawing.Size(217, 22);
+            this.dtp_dogumTarihi.TabIndex = 19;
             // 
-            // button1
+            // btn_ekle
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button1.Location = new System.Drawing.Point(600, 334);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(103, 38);
-            this.button1.TabIndex = 20;
-            this.button1.Text = "Ekle";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btn_ekle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btn_ekle.Location = new System.Drawing.Point(600, 334);
+            this.btn_ekle.Name = "btn_ekle";
+            this.btn_ekle.Size = new System.Drawing.Size(103, 38);
+            this.btn_ekle.TabIndex = 20;
+            this.btn_ekle.Text = "Ekle";
+            this.btn_ekle.UseVisualStyleBackColor = true;
+            this.btn_ekle.Click += new System.EventHandler(this.button1_Click);
             // 
-            // listBox1
+            // lb_kayit
             // 
-            this.listBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 16;
-            this.listBox1.Location = new System.Drawing.Point(12, 395);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(1236, 100);
-            this.listBox1.TabIndex = 21;
+            this.lb_kayit.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lb_kayit.FormattingEnabled = true;
+            this.lb_kayit.ItemHeight = 16;
+            this.lb_kayit.Location = new System.Drawing.Point(12, 395);
+            this.lb_kayit.Name = "lb_kayit";
+            this.lb_kayit.Size = new System.Drawing.Size(1236, 100);
+            this.lb_kayit.TabIndex = 21;
             // 
-            // comboBox1
+            // cb_sehir
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.cb_sehir.FormattingEnabled = true;
+            this.cb_sehir.Items.AddRange(new object[] {
             "Adana",
             "Adıyaman",
             "Afyonkarahisar",
@@ -325,10 +325,10 @@
             "Yalova",
             "Yozgat",
             "Zonguldak"});
-            this.comboBox1.Location = new System.Drawing.Point(574, 223);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 24);
-            this.comboBox1.TabIndex = 22;
+            this.cb_sehir.Location = new System.Drawing.Point(574, 223);
+            this.cb_sehir.Name = "cb_sehir";
+            this.cb_sehir.Size = new System.Drawing.Size(121, 24);
+            this.cb_sehir.TabIndex = 22;
             // 
             // Form1
             // 
@@ -336,14 +336,14 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.ClientSize = new System.Drawing.Size(1260, 516);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.listBox1);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.dateTimePicker1);
-            this.Controls.Add(this.maskedTextBox2);
-            this.Controls.Add(this.maskedTextBox1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.cb_sehir);
+            this.Controls.Add(this.lb_kayit);
+            this.Controls.Add(this.btn_ekle);
+            this.Controls.Add(this.dtp_dogumTarihi);
+            this.Controls.Add(this.mtb_telefonNo);
+            this.Controls.Add(this.mtb_tcNo);
+            this.Controls.Add(this.tb_soyad);
+            this.Controls.Add(this.tb_ad);
             this.Controls.Add(this.pictureBox6);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox5);
@@ -357,7 +357,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Bilgi Kayıt";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
@@ -383,14 +383,14 @@
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox1;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox2;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.ListBox listBox1;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.TextBox tb_ad;
+        private System.Windows.Forms.TextBox tb_soyad;
+        private System.Windows.Forms.MaskedTextBox mtb_tcNo;
+        private System.Windows.Forms.MaskedTextBox mtb_telefonNo;
+        private System.Windows.Forms.DateTimePicker dtp_dogumTarihi;
+        private System.Windows.Forms.Button btn_ekle;
+        private System.Windows.Forms.ListBox lb_kayit;
+        private System.Windows.Forms.ComboBox cb_sehir;
     }
 }
 

@@ -8,3 +8,13 @@ C:\Users\I-Life\OneDrive\Desktop\Dosyalar\EBM - 2.KUR\BilgiKayit\BilgiKayit\obj\
 C:\Users\I-Life\OneDrive\Desktop\Dosyalar\EBM - 2.KUR\BilgiKayit\BilgiKayit\obj\Debug\BilgiKayit.csproj.CoreCompileInputs.cache
 C:\Users\I-Life\OneDrive\Desktop\Dosyalar\EBM - 2.KUR\BilgiKayit\BilgiKayit\obj\Debug\BilgiKayit.exe
 C:\Users\I-Life\OneDrive\Desktop\Dosyalar\EBM - 2.KUR\BilgiKayit\BilgiKayit\obj\Debug\BilgiKayit.pdb
+C:\Users\I-Life\OneDrive\Documents\GitHub\BilgiKayit\BilgiKayit\BilgiKayit\bin\Debug\BilgiKayit.exe.config
+C:\Users\I-Life\OneDrive\Documents\GitHub\BilgiKayit\BilgiKayit\BilgiKayit\bin\Debug\BilgiKayit.exe
+C:\Users\I-Life\OneDrive\Documents\GitHub\BilgiKayit\BilgiKayit\BilgiKayit\bin\Debug\BilgiKayit.pdb
+C:\Users\I-Life\OneDrive\Documents\GitHub\BilgiKayit\BilgiKayit\BilgiKayit\obj\Debug\BilgiKayit.csproj.AssemblyReference.cache
+C:\Users\I-Life\OneDrive\Documents\GitHub\BilgiKayit\BilgiKayit\BilgiKayit\obj\Debug\BilgiKayit.Form1.resources
+C:\Users\I-Life\OneDrive\Documents\GitHub\BilgiKayit\BilgiKayit\BilgiKayit\obj\Debug\BilgiKayit.Properties.Resources.resources
+C:\Users\I-Life\OneDrive\Documents\GitHub\BilgiKayit\BilgiKayit\BilgiKayit\obj\Debug\BilgiKayit.csproj.GenerateResource.cache
+C:\Users\I-Life\OneDrive\Documents\GitHub\BilgiKayit\BilgiKayit\BilgiKayit\obj\Debug\BilgiKayit.csproj.CoreCompileInputs.cache
+C:\Users\I-Life\OneDrive\Documents\GitHub\BilgiKayit\BilgiKayit\BilgiKayit\obj\Debug\BilgiKayit.exe
+C:\Users\I-Life\OneDrive\Documents\GitHub\BilgiKayit\BilgiKayit\BilgiKayit\obj\Debug\BilgiKayit.pdb
